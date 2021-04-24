@@ -1,0 +1,41 @@
+.nav {
+  width: 100%;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  z-index: 10000;
+}
+
+.nav__content {
+  height: 100px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__menu-list {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__menu-list_item {
+  a {
+    font-family: $main-font;
+    font-size: 18px;
+    font-weight: 600;
+
+    color: white;
+
+    text-decoration: none;
+
+    svg {
+      height: 25px;
+      width: 25px;
+      fill: white;
+    }
+  }
+}

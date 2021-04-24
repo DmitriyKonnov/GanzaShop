@@ -5,4 +5,10 @@ body {
   font-family: $main-font;
 }
 
+li {
+  list-style: none;
+}
+
 @import "blocks/container";
+@import "blocks/header";
+@import "blocks/nav";
