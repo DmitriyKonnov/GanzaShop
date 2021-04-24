@@ -1,0 +1,24 @@
+{
+  "name": "ganzashop",
+  "version": "1.0.0",
+  "description": "ganzaShpo_site",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmitriyKonnov/GanzaShop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DmitriyKonnov/GanzaShop/issues"
+  },
+  "homepage": "https://github.com/DmitriyKonnov/GanzaShop#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  }
+}
