@@ -1,0 +1,44 @@
+.filter {
+  background-color: #f5f6f7; }
+
+.filter__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px 10px;
+  max-width: 1100px; }
+
+.filter__item {
+  position: relative;
+  font-family: inherit;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer; }
+  .filter__item:not(:last-child) {
+    margin-right: 40px; }
+  .filter__item span {
+    display: inline-block;
+    position: relative;
+    padding: 0 0 0 40px;
+    color: #333333; }
+  .filter__item span:before {
+    content: "";
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 0;
+    top: -3px;
+    border: 2px solid #aa9b77;
+    border-radius: 3px; }
+
+.filter__checkbox[type="checkbox"] {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  display: block;
+  width: 0;
+  height: 0; }
+
+.filter__checkbox[type="checkbox"]:checked + span:before {
+  background: url(/asset/img/check.svg) center no-repeat; }

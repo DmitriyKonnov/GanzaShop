@@ -3,6 +3,7 @@
 
 body {
   font-family: $main-font;
+  box-sizing: border-box;
 }
 
 li {
@@ -12,3 +13,5 @@ li {
 @import "blocks/container";
 @import "blocks/header";
 @import "blocks/nav";
+@import "blocks/filter";
+@import "button";
