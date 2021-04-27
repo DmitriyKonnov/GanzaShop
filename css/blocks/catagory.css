@@ -1,0 +1,17 @@
+.catagory__header {
+  display: flex;
+  align-items: center; }
+  .catagory__header div:first-child {
+    margin-right: 10px; }
+
+.catagory__title {
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #424242; }
+
+.catagory__border {
+  height: 2px;
+  width: 100%;
+  background-color: #cccccc; }
