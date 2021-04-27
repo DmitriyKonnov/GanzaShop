@@ -308,6 +308,9 @@ body {
   font-family: "Comfortaa", cursive;
   box-sizing: border-box; }
 
+ul {
+  padding: 0; }
+
 li {
   list-style: none; }
 
@@ -328,6 +331,57 @@ li {
   height: 2px;
   width: 100%;
   background-color: #cccccc; }
+
+.catagory__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
+.catagory__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 370px;
+  width: 310px;
+  margin: 80px 5px;
+  box-sizing: border-box; }
+  .catagory__item:hover {
+    box-shadow: 0px 0px 0px 5px #aa9b77; }
+
+.item__link {
+  padding-top: 20px;
+  height: 300px;
+  max-width: 100%;
+  margin: 0 auto; }
+
+.item__picture {
+  display: block;
+  height: 100%;
+  width: auto;
+  object-fit: cover; }
+
+.item__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10px; }
+
+.item__name {
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #aa9b77;
+  transition: 1s; }
+  .item__name:hover {
+    text-decoration: #aa9b77 underline; }
+
+.item__price {
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #424242; }
+  .item__price:hover {
+    text-decoration: #424242 underline; }
 
 .container {
   max-width: 1180px;
@@ -403,7 +457,8 @@ li {
     fill: white; }
 
 .filter {
-  background-color: #f5f6f7; }
+  background-color: #f5f6f7;
+  margin-bottom: 80px; }
 
 .filter__container {
   display: flex;
