@@ -2,7 +2,8 @@
   width: 100%;
   position: fixed;
   top: 0;
-  left: 0; }
+  left: 0;
+  z-index: 10000; }
 
 .nav__content {
   height: 100px;
@@ -16,10 +17,11 @@
   justify-content: space-between; }
 
 .nav__menu-list_item a {
-  font-family: inherit;
+  font-family: "Quicksand", sans-serif;
   font-size: 18px;
-  font-weight: 400;
-  color: white; }
+  font-weight: 600;
+  color: white;
+  text-decoration: none; }
   .nav__menu-list_item a svg {
     height: 25px;
     width: 25px;

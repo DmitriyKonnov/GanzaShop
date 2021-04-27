@@ -5,8 +5,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 45px 10px;
-  max-width: 1100px; }
+  padding: 45px 0; }
 
 .filter__item {
   position: relative;
@@ -41,4 +40,4 @@
   height: 0; }
 
 .filter__checkbox[type="checkbox"]:checked + span:before {
-  background: url(/asset/img/check.svg) center no-repeat; }
+  background: url("../asset/img/check.svg") center no-repeat; }
