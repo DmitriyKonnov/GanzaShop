@@ -1,6 +1,10 @@
 @import "normalize";
 @import "vars";
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Comfortaa", cursive;
   box-sizing: border-box;
@@ -22,3 +26,4 @@ li {
 @import "button";
 @import "blocks/about";
 @import "blocks/social";
+@import "blocks/footer";

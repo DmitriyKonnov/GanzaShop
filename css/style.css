@@ -304,6 +304,9 @@ template {
 [hidden] {
   display: none; }
 
+* {
+  box-sizing: border-box; }
+
 body {
   font-family: "Comfortaa", cursive;
   box-sizing: border-box; }
@@ -591,3 +594,43 @@ li {
     fill: #00acee; }
   .social__links-img#linkedin:hover {
     fill: #0288d1; }
+
+.footer {
+  width: 100%;
+  height: auto;
+  color: white;
+  background-color: #424242; }
+
+.footer__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 10px; }
+
+.footer__title {
+  padding-left: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase; }
+
+.footer__description {
+  max-width: 300px;
+  font-size: 12px;
+  font-weight: 300; }
+
+.footer__list {
+  display: flex; }
+
+.footer__list-item {
+  padding: 0 5px;
+  line-height: 0.8; }
+  .footer__list-item:not(:last-child) {
+    border-right: 1px solid white; }
+  .footer__list-item a {
+    color: inherit;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px; }
+    .footer__list-item a:hover {
+      text-decoration: underline; }
