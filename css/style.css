@@ -517,3 +517,40 @@ li {
     background-color: #dcd0b2;
     color: gray;
     box-shadow: 0px 10px 10px 0px rgba(34, 60, 80, 0.3); }
+
+.about {
+  height: auto;
+  width: 100%;
+  background-color: #aa9b77; }
+
+.about__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 70px; }
+
+.about__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 715px;
+  border: 2px solid #918363; }
+
+.about__title {
+  position: relative;
+  top: 35px;
+  color: #756847;
+  background-color: #aa9b77;
+  padding: 0 10px;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase; }
+
+.about__description {
+  text-align: center;
+  color: #494845;
+  padding: 90px 120px;
+  font-weight: 600; }
