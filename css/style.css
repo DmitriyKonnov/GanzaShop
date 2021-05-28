@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -360,7 +361,7 @@ li {
 .item__picture {
   display: block;
   height: 100%;
-  width: auto;
+  width: 100%;
   object-fit: cover; }
 
 .item__footer {
@@ -396,7 +397,7 @@ li {
   position: relative;
   width: 100%;
   height: 100vh;
-  background: url("../asset/img/Livello1.jpg") center center no-repeat;
+  background: url("../asset/img/Фото_сумок/pexels-min-an-681704.jpg") center center no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -419,17 +420,19 @@ li {
 .header__arrow {
   position: absolute;
   text-align: center;
-  bottom: 30px; }
+  height: 40px;
+  bottom: 40px;
+  animation: header__arrow 2s infinite; }
   .header__arrow:hover {
-    animation: header__arrow 1s linear infinite; }
+    cursor: pointer; }
 
 @keyframes header__arrow {
   0% {
-    bottom: 30px; }
-  50% {
-    bottom: 20px; }
+    bottom: 40px;
+    opacity: 1; }
   100% {
-    bottom: 30px; } }
+    bottom: 20px;
+    opacity: 0; } }
 
 .nav {
   width: 100%;
