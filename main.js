@@ -4,7 +4,7 @@ const filter = document.querySelector('.filter');
 const navHeight = nav.offsetHeight;
 const headerHeight = header.offsetHeight;
 const filterHeight = filter.offsetHeight;
-console.log(filterHeight)
+const arrow = document.querySelector('#arrow');
 
 window.addEventListener('scroll', () => {
     let scrollDistance = window.scrollY;
@@ -15,3 +15,8 @@ window.addEventListener('scroll', () => {
         nav.classList.remove('nav__scroll');
     }
 })
+
+arrow.addEventListener('click', () =>filter.scrollIntoView({
+    block: 'start',
+    behavior:'smooth'
+}))

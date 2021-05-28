@@ -28,6 +28,8 @@
   text-align: center;
   height: 40px;
   bottom: 40px;
+  background-color: transparent;
+  border: none;
   animation: header__arrow 2s infinite; }
   .header__arrow:hover {
     cursor: pointer; }
